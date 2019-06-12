@@ -4,7 +4,7 @@
 
 @section('makepost')
             <div class="panel-heading"> 
-                <img src="/ass2/public/panda.jpg">
+                <img src="/panda.jpg">
                 <br>
 
             </div>
@@ -17,7 +17,7 @@
             </div>
             <div class="panel-body"> 
                 <h3>ER Diagram for the database</h3>
-                <img src="/ass2/public/erdiagram.png">
+                <img src="/erdiagram.png">
                 <p>
                     The diagram above shows the relationship between the four table's that make up the database.
                     

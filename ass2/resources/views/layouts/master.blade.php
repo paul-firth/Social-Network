@@ -24,11 +24,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-            <a class="navbar-brand" href= "http://web-app-dev-paulfirth.c9users.io/ass2/public/">Social Panda</a>
+            <a class="navbar-brand" href= "http://web-app-dev-paulfirth.c9users.io/">Social Panda</a>
         </div>
 
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/ass2/public/doc">Documentation</a></li>
+            <li><a href="/doc">Documentation</a></li>
             
             @if (Auth::guest())
               <li><a href="{{ route('login') }}">Profile</a></li>
@@ -40,7 +40,7 @@
                         
                         @if (Auth::guest())                                     <!-- Cheacks if user is a guest and gives coresponging option to login or register -->
                             <li><a href="{{ route('login') }}">Login</a></li>
-                            <li><a href="/ass2/user/create">Register</a></a></li>    <!-- Was using {{route('register')}} but wouldnt function correctly  --> 
+                            <li><a href="/user/create">Register</a></a></li>    <!-- Was using {{route('register')}} but wouldnt function correctly  --> 
                         @else
                             <li><a href="/user/{{ Auth::user()->id }}"> {{ Auth::user()->name }}</a></li>
                             

@@ -1,0 +1,2 @@
+[09-Sep-2017 08:06:36 UTC] PHP Fatal error:  Cannot redeclare com_count() (previously declared in /home/ubuntu/workspace/assign2/routes/web.php:35) in /home/ubuntu/workspace/assign2/routes/web.php on line 40
+[13-Sep-2017 04:47:43 UTC] PHP Fatal error:  Cannot redeclare com_count() (previously declared in /home/ubuntu/workspace/ass2/routes/web.php:48) in /home/ubuntu/workspace/ass2/routes/web.php on line 53

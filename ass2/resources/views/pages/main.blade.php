@@ -53,7 +53,7 @@
     @foreach($users as $user)                    <!-- Loop to display posts   --> 
         <div class="panel panel-default">
             <div class="panel-heading"> 
-                <img src="/ass2/public/{{$user->image}}" style="width:70px;height:70px;"><b><a href="{{url("/user/$user->user")}}">  {{$user->name}}</a> </b> 
+                <img src="/{{$user->image}}" style="width:70px;height:70px;"><b><a href="{{url("/user/$user->user")}}">  {{$user->name}}</a> </b> 
             </div>
             <div class="panel-body">
                 <h4>{{$user->title}}</h4> 
