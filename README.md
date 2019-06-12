@@ -1,3 +1,5 @@
+Assignment 2 for Web Apllication Development
+
 A simple social network site named "Social Pandas".
 
 Built in Laravel and using SQLite, the site allow user's to register, login, make/edi/delete posts, see and make/delete comments on other posts, 
