@@ -1,4 +1,4 @@
-Assignment 2 for Web Apllication Development
+Assignment 2 for Web Aplication Development
 
 A simple social network site named "Social Pandas".
 
