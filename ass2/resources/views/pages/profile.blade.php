@@ -60,15 +60,7 @@
                                 <input type="submit" value="Unfriend" class="btn btn-default">
                             </form>
                         </div>
-                    @elseif ($friend->userb == $user->id or $friend->usera == $user->id && $friend->usera != Auth::user()->id or $friend->usera != Auth::user()->id) <!-- if the user profile has a friendship and its not with the auth user show add friend  -->
-                        <div class="panel-body">
-                            <form method="POST" action="/friend">          
-                                {{csrf_field()}}
-                                <input type='hidden' name="id" value="{{Auth::user()->id}}">
-                                <input type='hidden' name="friendid" value="{{$user->id}}">
-                                <input type="submit" value="Add Friend." class="btn btn-default">
-                            </form>
-                        </div>
+
                     @else
                          <?php $notfriend = $notfriend + 1 ; ?>        <!-- if loops through and finds your not friends adds one  -->
                     @endif 
